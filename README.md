@@ -15,4 +15,12 @@ Tourists visiting a city
 New residents adjusting to urban life
 
 Locals looking to explore more of their city
+To run it:
 
+in terminal run "npm install".
+check gemini api key in server.js (optional).
+in one terminal run "npm run dev".
+in another terminal run "node server.js".
+run all this command from main directory.
+
+Default url for front-end: http://localhost:5173
