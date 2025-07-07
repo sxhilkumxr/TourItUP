@@ -15,7 +15,7 @@ app.use(bodyParser.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // OpenRouter configuration with backup models
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || "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";
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || "API_KEY";
 const MODELS = [
   "microsoft/phi-3-mini-128k-instruct:free",
   "meta-llama/llama-3.2-3b-instruct:free", 
